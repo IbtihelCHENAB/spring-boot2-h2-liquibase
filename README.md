@@ -20,10 +20,10 @@ And then run
 mvn spring-boot:run
 ```
 
-Go to http://localhost:8080/h2-console
+Go to http://localhost:8080/h2-console 
 
-JDBC URL: jdbc:h2:mem:testdb
-User Name: sa
-Password: Leave it blank
+```JDBC URL```: jdbc:h2:mem:testdb
+```User Name```: sa
+```Password```: Leave it blank
 
 Now you have access to the in-memory H2 database dashboard in which you will find all the changes that you made using liquibase configuration.
